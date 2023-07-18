@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * main - Prints a random number and states whether
@@ -6,8 +6,7 @@
  *
  * Return: Always 0.
 */
-void _putchar(void);
 int main(void) {
-_putchar();
+write(_putchar());
 return (0);
 }
