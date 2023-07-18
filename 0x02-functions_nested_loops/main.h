@@ -1,4 +1,5 @@
 include <stdio.h>
+include <stdlib.h>
 /**
  * main - Prints a random number and states whether
  * it is positive, negative, or zero.
@@ -7,5 +8,5 @@ include <stdio.h>
 */
 void _putchar(void)
 {
-printf("_putchar\n");
+write("_putchar\n");
 }
