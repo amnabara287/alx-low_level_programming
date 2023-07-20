@@ -11,8 +11,8 @@ char c;
 for (c = '0'; c <= '9'; c++)
 {
 if (!(c == '2' || c == '4'))
-putchar(c);
+_putchar(c);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
