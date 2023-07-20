@@ -1,17 +1,12 @@
 #include "main.h"
-/**                                                                                                                    
-* print_alphabet_x10 - utilizes on the _putchar funtion to                                                             
-* print the alphapet a - z 10 times                                                                                    
+/**
+* main - tests function that prints if integer is positive or negative
+* Return: 0
 */
 void positive_or_negative(int i)
 {
-if (i < 0)
-{
-printf("Number is positive");	     
-}
-else
-{
-printf("Number is negative");
-}
+int i;
+i = 98
+positive_or_negative(i);
 return (0);
 }
