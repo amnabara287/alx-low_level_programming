@@ -9,6 +9,9 @@
  */
 int _strlen(char *s)
 {
-char *st[];
-return (sizeof(*st));
+	int a = 0;
+
+	for (; *s++;)
+		a++;
+	return (a);
 }
